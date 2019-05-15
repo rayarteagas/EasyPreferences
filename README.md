@@ -1,5 +1,6 @@
 # EasyPreferences
 
+```kotlin
 //regular persisted properties declarations
 var userName by PersistedProperty("pref_user_name","USD")
 var userAge by PersistedProperty("pref_user_age",0)
@@ -17,3 +18,4 @@ usingDarkThemeLive.setValue(true)
 usingDarkThemeLive.observe(this, androidx.lifecycle.Observer {
     //Act accordigly 
 })
+```
